@@ -1,6 +1,10 @@
-function showTwitter(){
-  window.location = 'twitter://user?screen_name=JesseVelden';
-  setTimeout(function(){
-	  window.location = 'https://twitter.com/JesseVelden';
-  }, 300);
+function showTwitter(failURL){
+    var clickedAt = +new Date;
+    // During tests on 3g/3gs this timeout fires immediately if less than 500ms.
+    setTimeout(function(){
+        // To avoid failing on return to MobileSafari, ensure freshness!
+        if (+new Date - clickedAt < 2000){
+            window.location = failURL;
+        }
+    }, 500);
 }
