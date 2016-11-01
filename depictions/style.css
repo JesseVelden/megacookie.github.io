@@ -24,8 +24,8 @@ fieldset > a:active,  fieldset > a:hover{
 	color: black;
 	text-decoration: none;
 }
-fieldset > a:hover {
-	background-color: #d9d9d9 !important;
+fieldset > a.cytyle-in {
+    background-color: #d9d9d9 !important;
 }
 fieldset > a > .glyphicon {
 	line-height: 1.8;
