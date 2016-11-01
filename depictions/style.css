@@ -23,6 +23,8 @@ fieldset > a > span {
 fieldset > a:active,  fieldset > a:hover{
 	color: black;
 	text-decoration: none;
+}
+fieldset > a:hover {
 	background-color: #d9d9d9 !important;
 }
 fieldset > a > .glyphicon {
