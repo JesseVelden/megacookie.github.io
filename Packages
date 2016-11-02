@@ -52,6 +52,24 @@ Icon: file:///Library/PreferenceBundles/SwipyFoldersPrefs.bundle/swipe@2x.png
 Name: SwipyFolders
 
 Package: nl.jessevandervelden.swipyfolders
+Version: 1.4.2-1
+Architecture: iphoneos-arm
+Maintainer: Jesse van der Velden <mail@jessevandervelden.nl>
+Installed-Size: 716
+Depends: mobilesubstrate, firmware (>= 8.0), com.rpetrich.rocketbootstrap (>= 1.0.4)
+Filename: debs/nl.jessevandervelden.swipyfolders_1.4.2-1.deb
+Size: 218534
+MD5sum: 1b7c2526a6d317cb914d060c3de743d7
+SHA1: 1383a578274896c7093582b55edb4890da525869
+SHA256: a46413d3dd285e957a42b3f7feeb4ec0f608cc4c3398436d3386501d99b90e99
+Section: Tweaks
+Description: Gestures for your folders
+Author: Jesse van der Velden <mail@jessevandervelden.nl>
+Depiction: http://megacookie.github.io/depictions/nl.jessevandervelden.swipyfolders
+Icon: file:///Library/PreferenceBundles/SwipyFoldersPrefs.bundle/swipe@2x.png
+Name: SwipyFolders
+
+Package: nl.jessevandervelden.swipyfolders
 Version: 1.4.2
 Architecture: iphoneos-arm
 Maintainer: Jesse van der Velden <mail@jessevandervelden.nl>
